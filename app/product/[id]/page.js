@@ -15,7 +15,7 @@ export default function ProductDetail({ params }) {
       .then(setProduct);
   }, []);
 
-  if (!product) return <div>Loading...</div>;
+  if (!product) return <div>Loading.....</div>;
 
   return (
     <div className="p-6">
